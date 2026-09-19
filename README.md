@@ -1,4 +1,4 @@
-if you want use this P2P CHAT execute this commands:
+Optimized for Termux!
 for termux:
 
 pkg update -y && pkg upgrade -y && pkg install git mono python -y && git clone https://github.com/kerem1545-pvd/P2P-Chat.git && cd P2P-Chat && mono p2p_chat.exe
