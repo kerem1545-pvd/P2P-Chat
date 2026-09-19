@@ -1,4 +1,4 @@
-if you want use this execute this commands:
+if you want use this P2P CHAT execute this commands:
 for termux:
 
 pkg update && pkg upgrade
