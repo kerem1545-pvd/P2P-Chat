@@ -16,15 +16,15 @@ features:
 
 | Command | Usage Example | Description |
 | :--- | :--- | :--- |
-| `!kick <username>` | `!kick ahmet` | Kicks the user from the room immediately. |
-| `!ban <username>` | `!ban mehmet` | Bans the user (kicks them and prevents them from rejoining). |
-| `!unban <username>` | `!unban mehmet` | Removes the user from the ban list. |
-| `!mute <username>` | `!mute troll123` | Mutes the user (their messages are blocked and ignored by peers). |
-| `!unmute <username>` | `!unmute troll123` | Unmutes the user, allowing them to send messages again. |
+| `!kick <username>` | `!kick username` | Kicks the user from the room immediately. |
+| `!ban <username>` | `!ban username` | Bans the user (kicks them and prevents them from rejoining). |
+| `!unban <username>` | `!unban username` | Removes the user from the ban list. |
+| `!mute <username>` | `!mute username` | Mutes the user (their messages are blocked and ignored by peers). |
+| `!unmute <username>` | `!unmute username` | Unmutes the user, allowing them to send messages again. |
 | `!maxusers <number>` | `!maxusers 8` | Sets the maximum capacity of the room (blocks new joins when full). |
 | `!whitelist on` | `!whitelist on` | Activates whitelist mode (non-whitelisted users are kicked/blocked). |
 | `!whitelist off` | `!whitelist off` | Deactivates whitelist mode. |
-| `!wl add <username>` | `!wl add alex` | Adds a user to the whitelist. |
+| `!wl add <username>` | `!wl add username` | Adds a user to the whitelist. |
 | `!wl remove <username>` | `!wl remove alex` | Removes a user from the whitelist. |
 
 ---
